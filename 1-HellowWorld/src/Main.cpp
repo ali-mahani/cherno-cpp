@@ -1,8 +1,10 @@
 #include <iostream>
 
+// can remove var name and just define the var type
+void Log(const char* message);
 
 int main()
 {
-	std::cout << "HelloWorld!" << std::endl;
+    Log("HelloWorld!");
 	std::cin.get();
 }
